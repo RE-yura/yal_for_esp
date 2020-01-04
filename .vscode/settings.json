@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "cmath": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+      "/home/yura/ros/colcon_ws/install/my_msgs/lib/python3.6/site-packages",
+      "/opt/ros/dashing/lib/python3.6/site-packages"
+    ]
+}
