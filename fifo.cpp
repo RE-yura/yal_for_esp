@@ -3,7 +3,7 @@
 // #include <sys/stat.h>
 // #include <fcntl.h>
 // #include <string>
-#include <error.h>
+// #include <error.h>
 #include <errno.h>
 #include "fifo.h"
 
