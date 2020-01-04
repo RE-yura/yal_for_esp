@@ -1,8 +1,8 @@
-// #include <stdio.h>
-// #include <unistd.h>
-// #include <sys/stat.h>
-// #include <fcntl.h>
-// #include <string>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <string>
 // #include <error.h>
 #include <errno.h>
 #include "fifo.h"
