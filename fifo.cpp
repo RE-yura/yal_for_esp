@@ -3,6 +3,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <string>
+#include <string.h>
 // #include <error.h>
 #include <errno.h>
 #include "fifo.h"
@@ -176,3 +177,10 @@ void FIFO::close(){
 int FIFO::destroy(){
   return remove(path.c_str());
 }
+
+template < typename T > std::string to_string( const T& n )
+    {
+        std::ostringstream stm ;
+        stm << n ;
+        return stm.str() ;
+    }
