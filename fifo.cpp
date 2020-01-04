@@ -143,6 +143,12 @@ int FIFO::create(std::string name){
   return mkfifo( path.c_str(), 0666 );
 
 }
+template < typename T > std::string to_string( const T& n )
+    {
+        std::ostringstream stm ;
+        stm << n ;
+        return stm.str() ;
+    }
 
 int FIFO::create(std::string name, int index){//, size_t size){
   name += std::to_string(index);
@@ -178,9 +184,3 @@ int FIFO::destroy(){
   return remove(path.c_str());
 }
 
-template < typename T > std::string to_string( const T& n )
-    {
-        std::ostringstream stm ;
-        stm << n ;
-        return stm.str() ;
-    }
