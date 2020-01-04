@@ -1,7 +1,8 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "cmath": "cpp"
+      "cmath": "cpp",
+      "*.tcc": "cpp"
     },
     "python.autoComplete.extraPaths": [
       "/home/yura/ros/colcon_ws/install/my_msgs/lib/python3.6/site-packages",
